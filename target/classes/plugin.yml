@@ -1,0 +1,7 @@
+name: monter_naruto
+version: 0.0.1
+main: io.github.monterxto.naruto.Main
+commands:
+  modos:
+    description: Primeiro Comando
+    usage: /<command> [player]

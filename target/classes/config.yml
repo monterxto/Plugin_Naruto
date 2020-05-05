@@ -1,0 +1,43 @@
+#Modos
+Modos:
+   titulo_inventario: '&b&lEscolha seu Modo'
+   quantidade: 3
+   modo1:
+      bloco: 1
+      nome: '&a&lSábio'
+      lore: '&d&lClick para ativar o modo Sábio!'
+      atributos: #Strength, Dexterity, Constitution, Willpower, Mind, Concentration
+         - 'Strength'
+      valor:
+         - 100
+      posicao: 18
+   modo2:
+      bloco: 2
+      nome: '&b&lHokage'
+      lore: '&d&lClick para ativar o modo Hokage!'
+      atributos:
+         - 'Constitution'
+      valor:
+         - 50
+      posicao: 20
+   modo3:
+      bloco: 4
+      nome: '&b&lalguma'
+      lore: '&d&lClick para ativar o modo Hokage!'
+      atributos:
+         - 'Constitution'
+      valor:
+         - 50
+      posicao: 25
+   sair_modo:
+      bloco: 355
+      nome: '&a&lSair do(s) Modo(s)'
+      lore: '&d&lClick para ativar sair do(s) modo(s)!'
+      posicao: 53
+Mensagens:
+   escolhido: '&a&lAgora Voc  o {modo}'
+   sem_permissao: '&a&lVocê não tem permissão'
+   sair_modos: '&a&lVoc saiu dos modos'
+   usando: '&c&lVocê já está usando algum modo'
+   sem_modos: '&c&lVocê não est em nenhum modo'
+   
